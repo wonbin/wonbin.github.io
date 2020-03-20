@@ -1,0 +1,96 @@
+<!-- codeing program : VSCode -->
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+      @font-face { 
+        font-family: 'CookieRun-Regular'; 
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff'); 
+        font-weight: normal; 
+        font-style: normal; 
+      }
+      @font-face { 
+        font-family: 'Recipekorea'; 
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff'); 
+        font-weight: normal; 
+        font-style: normal;
+      }
+        .sidenav {
+          background-color: #504A4B;
+          position: fixed;
+          width: 200px;
+          height: 500px;
+          margin-left: -20px;
+          margin-top: -10px;
+        }
+        .page {
+          margin-top:50px;
+          margin-left: 250px;
+        }
+        #arch{
+          width: 120px;
+          height: 40px;
+          background-color: #504a4b;
+          color: #ffffff;
+          border: 1px solid #ffffff;
+          border-bottom-right-radius: 10px;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          font-family: 'CookieRun-Regular';
+          font-size: 18px;
+        }
+        #github{
+          width: 120px;
+          height: 40px;
+          background-color: #504A4B;
+          color: #ffffff;
+          border: 1px solid #ffffff;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          font-family: 'CookieRun-Regular';
+          font-size: 18px;
+        }
+        #sidebarbutton button:hover{
+          background-color: #ffffff;
+          color: #504a4b;
+          border: 1px solid #ffffff;
+        }
+        #sidebartext{
+          color:#ffffff;
+          font-family: 'Recipekorea';
+          font-size: 25px;
+        }
+    </style>
+    <style type="text/css">
+        #topbar1 {width:330px;height:50px;background:#504A4B;list-style:none;padding-top:15px;float: right;margin-top: -10px;margin-right: -10px;position: relative;z-index:2;}
+        #topbar1 li{float:left;margin-right: 40px;margin-left: 5px;margin-top: 7px;font-family: 'CookieRun-Regular';position: relative;z-index:3;}
+        #topbar1 li a{font-size:18px;color:white;text-decoration:none;position: relative;z-index:4;}
+    </style>
+  </head>
+  <body background="picture/home_moon.jpg">
+    <div class="sidebar">
+      <nav class="col-sm-3 sidenav">
+        <h4 id="sidebartext">&nbsp; &nbsp; &nbsp; SideBar</h4>
+          <ul class="nav nav-pills nav-stacked">
+            <div id="sidebarbutton">
+              <button id="arch" onclick="location.href='https://www.archlinux.org/'">arch</button><br><br>
+              <button id="github" onclick="location.href='https://github.com/wonbin/wonbin.github.io'">github</button><br><br>
+            </div>
+          </ul>
+        </nav>  
+    </div>
+    <div>
+      <ul id="topbar1">
+      <li><a href="#">home</a></li>
+      <li><a href="#">#</a></li>
+      <li><a href="#">#</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
